@@ -89,8 +89,8 @@ const attendanceControllers = {
 
 // currentDate.setDate(currentDate.getDate() + 1);
 
-      console.log(`Class: ${classData.name}`);
-      console.log('Students:');
+      // console.log(`Class: ${classData.name}`);
+      // console.log('Students:');
   
       // Get an array of existing student IDs for the given date and time slot
       const existingStudentIds = (
@@ -131,7 +131,7 @@ const attendanceControllers = {
         (attendance) => attendance.studentId?.class?.name === className
       );
   
-      console.log(filteredStudentAttendance);
+      // console.log(filteredStudentAttendance);
       console.log(currentDate)
       const finalAttendance = filteredStudentAttendance.map((attendance) => ({
         _id: attendance.studentId._id,

@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
-// const uri = 'mongodb+srv://om:omiii@atlascluster.zo09joq.mongodb.net/CODept?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://om:omiii@atlascluster.zo09joq.mongodb.net/CoDepartment?retryWrites=true&w=majority';
 // Connect to MongoDB
 
 const connectToMongo = async () => {
     mongoose
-  .connect(process.env.MongoURL)
+  .connect(uri)
   .then(() => console.log('MongoDB connected'))
   .catch((err) => console.error(err));
 

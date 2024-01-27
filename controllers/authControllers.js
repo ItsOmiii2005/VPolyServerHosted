@@ -4,7 +4,7 @@ const cookie = require('cookie');
 const Faculty = require('../models/Faculty');
 const jwt = require('jsonwebtoken');
 
-const secretKey = process.env.SECRET_ENCRYPTION_KEY;
+const secretKey = "85f55ae3bbf0d828d8e485122661a88d98956b6b0b35b164ab89315caeefbad9";
 
 const authControllers = {
 login:
