@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.268ef55e.css",
-    "main.js": "/static/js/main.4c987079.js",
+    "main.js": "/static/js/main.ad858053.js",
     "static/media/vapmlogo.png": "/static/media/vapmlogo.727946464d1035850c93.png",
     "static/media/schedule.jpg": "/static/media/schedule.f4c7b472bc631bd66388.jpg",
     "static/media/studentmgmt.jpg": "/static/media/studentmgmt.8753e47d1364bc946950.jpg",
@@ -12,10 +12,10 @@
     "static/media/Vpolyserver.png": "/static/media/Vpolyserver.14d4f471a3ac755321b6.png",
     "index.html": "/index.html",
     "main.268ef55e.css.map": "/static/css/main.268ef55e.css.map",
-    "main.4c987079.js.map": "/static/js/main.4c987079.js.map"
+    "main.ad858053.js.map": "/static/js/main.ad858053.js.map"
   },
   "entrypoints": [
     "static/css/main.268ef55e.css",
-    "static/js/main.4c987079.js"
+    "static/js/main.ad858053.js"
   ]
 }
